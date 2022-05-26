@@ -232,9 +232,18 @@ div .currency-table--date p {
 
 .main-description--content {
     width: 100%;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.main-description--logo {
+    position: absolute;
+    background-image: url(/img/Group\ 16.png);
+    width: 40px;
+    height: 24px;
+    top: -12px;
 }
 
 .main-description--title {
@@ -314,29 +323,9 @@ div .currency-table--date p {
 
 /* Section 4 */
 
-/* .main-cover {
-
-}
-
-.main-cover--content {
-
-}
-
-.main-cover--content img {
-    width: 516px;
-    height: 387px;
-}
-
-span .main-cover--img {
-
-    background-image: url('/img/bitcoinbaby.png');
-} */
-
-/* Section 5 */
 
 .main-plans {
     width: 100%;
-    height: 708px;
 }
 
 .main-plans--container {
@@ -433,4 +422,37 @@ div.main-plans--value span {
     height: 15px;
     top: 9px;
     left: 49px;
+}
+
+/* footer */
+
+footer {
+    background: var(--bitcoin--orange);
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffff;
+    line-height: 18px;
+    padding-top: 40px;
+}
+
+.footer-text p {
+    padding-bottom: 8px;
+}
+
+.footer-logo img {
+    padding-top: 52px;
+}
+
+.footer-logo p {
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    color: var(--soft--orange);
 }
